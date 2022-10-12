@@ -13,12 +13,12 @@ async function buscar() {
     small.classList.add('hidden');
     resultado.innerHTML = `
     <div class = "inf" >
-    <p><span>Cep</span>  : ${body.cep}</p>
-    <p><span>Logradouro</span>: ${body.logradouro}</p>
-    <p><span>Bairro</span>: ${body.bairro}</p>
-    <p><span>Localidade:</span>  ${body.localidade}</p>
-    <p><span>UF:</span> ${body.uf}</p>
-    <p><span>ddd:</span>${body.ddd}</p>
+    <p><span>Cep: </span> ${body.cep}</p>
+    <p><span>Logradouro: </span> ${body.logradouro}</p>
+    <p><span>Bairro: </span> ${body.bairro}</p>
+    <p><span>Localidade: </span>  ${body.localidade}</p>
+    <p><span>UF: </span> ${body.uf}</p>
+    <p><span>ddd: </span>${body.ddd}</p>
     </div>
     `;
     if (body.erro) {

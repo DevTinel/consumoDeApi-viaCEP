@@ -100,6 +100,7 @@ align-items: flex-start;
 .inf span{
   font-weight: bold;
   color: #fb1;
+  margin-right: 10px;
 }
 .hidden {
   display: none;
