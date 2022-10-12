@@ -3,7 +3,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin-top: 100px;
   font-family: 'Roboto', sans-serif;
 }
 *{
@@ -39,6 +39,7 @@ input{
   padding: 20px;
   border-radius: 1rem;
   outline: none;
+  width: 80%;
   border: none;
   background:rgba(0, 0, 0, .5);
   text-align: center;
@@ -53,7 +54,7 @@ input::placeholder{
 
 button{
   padding: 20px;
-  width: 200px;
+  width: 80%;
   border-radius: .5rem;
   border: none;
   background-color: rgba(0, 0, 0, .6);
@@ -98,6 +99,7 @@ align-items: flex-start;
   width:100%;
   color: #fff;
 }
+
 .inf span{
   font-weight: bold;
   color: #fb1;
@@ -119,17 +121,12 @@ align-items: flex-start;
     width: 100%;
     padding: 20px;
     padding-bottom: 50px;
-
   }
+
   body{
     margin: 20px;
   }
-  button{
-   width: 80%;
-  }
-  input{
-    width: 80%;
-  }
+ 
   .inf{
     width: 100%;
   }
