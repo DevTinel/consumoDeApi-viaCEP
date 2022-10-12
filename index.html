@@ -7,20 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css">
   <style>
-    .hide {
-      display: none;
-    }
+
   </style>
 
 </head>
 
 <body>
-  <h1>Busque seu cep</h1>
-  <input type="text" name="cep" id="cep"><br><br>
-  <button type="submit">Procurar</button>
-  <h2 class="hide">Resultado</h2>
-  <div id="resultado"></div>
+  <main class="container">
+    <h1>Busque seu cep</h1>
+    <input type="text" class="" name="cep" placeholder="00000-000" id="cep">
+    <small class="hidden">CEP Inválido! tente outro CEP.</small><br>
+
+    <button type="submit">Procurar</button>
+    <div id="resultado"></div>
+  </main>
 </body>
 
 </html>
